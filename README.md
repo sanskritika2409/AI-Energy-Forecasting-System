@@ -106,15 +106,14 @@ python test_api.py
 ## 📈 Results
 
 ### 🔹 Actual vs Predicted Graph
-(Add your image here)
-```
-![Prediction Graph](outputs/prediction_graph.png)
+[ predictions](outputs/prediction_graph.png)
+
 ```
 
 ---
 
 ### 🔹 Sample Predictions
-(Add CSV preview)
+[sample predictions](outputs/sample.png)
 
 ---
 
@@ -136,32 +135,45 @@ This project is useful in:
 
 ---
 
-## 📡 API Example
+#### 4. Test API
 
-### Endpoint:
-```
-POST /predict
-```
+python test_api.py
 
-### Input:
-```json
-{
-  "hour": 14,
-  "day": 2
-}
-```
-
-### Output:
-```json
-{
-  "energy": 116.63
-}
-```
 
 ---
 
+## 📊 Results
+
+### 🔹 Actual vs Predicted Graph
+![Graph](images/graph.png)
+
+### 🔹 Model Performance
+- Mean Absolute Error (MAE): ~20
+
+---
+
+## 🌐 API Example
+
+**Input:**
+
+{
+"hour": 14,
+"day": 2
+}
+
+
+**Output:**
+
+{
+"energy": 116.63
+}
+---
+
 ## 📸 Screenshots
-(Add images in /images folder)
+[sample predictions](outputs/sample.png)
+[ predictions](outputs/prediction_graph.png)
+[ result](outputs/result.png)
+[fig1](outputs/figure_1.png)
 
 ---
 
@@ -175,7 +187,7 @@ POST /predict
 ---
 
 ## 👩‍💻 Author
-Your Name
+Sanskritika Awasthi
 
 ---
 
